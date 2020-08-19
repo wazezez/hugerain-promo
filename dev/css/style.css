@@ -76,33 +76,17 @@ body {
   .promo__title h1 span {
     color: #f12711; }
 
-.promo-section--blue .promo__title h1 span {
-  color: #4e7cff; }
-
-.promo-section--blue .promo__time {
-  background: #4e7cff;
-  background: -webkit-linear-gradient(to right, #4e7cff, #192af5);
-  background: linear-gradient(to right, #4e7cff, #192af5); }
-
-.promo-section--blue .button--orange {
-  background-color: #4e7cff;
-  color: #fff; }
-  .promo-section--blue .button--orange:hover {
-    background-color: #3569ff; }
-  .promo-section--blue .button--orange:focus {
-    background-color: #1b56ff; }
-
 .promo-section--blue .slider {
-  background-color: #e4eaff; }
+  background-color: #d4efaf; }
 
 .promo-section--blue .slider:before {
-  background-color: #bbcbff; }
+  background-color: #add86e; }
 
 .promo-section--blue input:checked + .slider {
-  background-color: rgba(78, 124, 255, 0.7); }
+  background-color: rgba(115, 163, 47, 0.7); }
 
 .promo-section--blue input:checked + .slider:before {
-  background-color: #192af5; }
+  background-color: #73a32f; }
 
 .promo-section > .container {
   min-height: calc(100vh - 63px);

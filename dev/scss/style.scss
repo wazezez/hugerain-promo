@@ -64,35 +64,27 @@ body {
 .promo-section {
   &--blue {
     $color: #4e7cff;
-    .promo__title h1 span {
-      color: $color;
-    }
-    .promo__time {
-      background: $color;
-      background: -webkit-linear-gradient(to right, $color, #192af5);
-      background: linear-gradient(to right, $color, #192af5);
-    }
-    .button--orange {
-      background-color: $color;
-      color:#fff;
-      &:hover {
-        background-color: darken($color,5%);
-      }
-      &:focus {
-        background-color: darken($color,10%);
-      }
-    }
+    // .button--orange {
+    //   background-color: $color;
+    //   color:#fff;
+    //   &:hover {
+    //     background-color: darken($color,5%);
+    //   }
+    //   &:focus {
+    //     background-color: darken($color,10%);
+    //   }
+    // }
     .slider {
-      background-color: lighten(#cad7ff,5%);
+      background-color: #d4efaf;
     }
     .slider:before {
-      background-color: darken(#cad7ff,3%);
+      background-color: #add86e;
     }
     input:checked + .slider {
-      background-color: rgba($color,.7);
+      background-color: rgba(#73a32f,.7);
     }
     input:checked + .slider:before {
-      background-color: #192af5;
+      background-color: #73a32f;
     }
   }
   & > .container {
