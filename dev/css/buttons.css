@@ -1,0 +1,34 @@
+.button {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 0px 35px;
+  height: 64px;
+  line-height: 64px;
+  border: 0px;
+  font-weight: 700;
+  font-size: 16px;
+  transition: 0.3s ease all;
+  transition-property: border,background-color,color;
+  cursor: pointer;
+  outline: 0px; }
+  .button:focus {
+    outline: 0px; }
+  .button--green {
+    color: #E9EBF9;
+    background-color: #73A32F;
+    box-shadow: 0px 12px 12px rgba(115, 163, 47, 0.12); }
+    .button--green:hover {
+      background-color: #658f29; }
+    .button--green:focus {
+      background-color: #577b24; }
+  .button--orange {
+    color: #000;
+    background-color: #ffb800;
+    box-shadow: 0px 12px 12px rgba(115, 163, 47, 0.12); }
+    .button--orange:hover {
+      background-color: #e6a600; }
+    .button--orange:focus {
+      background-color: #cc9300; }
